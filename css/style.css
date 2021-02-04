@@ -1,0 +1,99 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url("components/cards.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+
+}
+
+div {
+    display: block;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.header {
+    color: white;
+   text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}
+
+.header p {
+  margin-bottom: 30px;
+}
+
+.btn-main {
+  background-color: white;
+  padding: 15px 25px;
+  border-radius: 15px;
+  text-shadow: none;
+  color: #ff4646;
+  font-weight: bolder;
+
+}
+
+.btn-main:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+
+img {
+  width: 240px;
+  height: 150px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul {
+padding-left: 0px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding: 20px;
+  font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #ff4646;
+}
+
+.footer {
+margin: 0 auto;
+text-align: center;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.5px;
+    color: gray;
+}
+
